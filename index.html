@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jota Car</title>
+    <!--link css-->
+    <link rel="stylesheet" href="/style.css">
+    <!--bootstrapicons-->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.5/font/bootstrap-icons.min.css"
+        rel="stylesheet">
+
+</head>
+
+<body>
+    <header>
+        <div class="nav container">
+            <a href="#" class="logo">Jota Car</a>
+            <!--carrinho-->
+            <div class="carlogin">
+                <i class="bi bi-bag-check" id="carrinho_i"></i>
+                <div id="total-quantidade" class="badge">0</div>
+            </div>
+            <!--Carrinho-->
+            <div class="carrinho">
+                <h2 class="titulo-carrinho">Seu Carrinho</h2>
+                <!--contente carrinho-->
+                <div class="contente-carrinho">
+
+                </div>
+                <!--Total-->
+                <div class="total">
+                    <div class="titulo-total">Total</div>
+                    <div class="valor-total">R$0</div>
+                </div>
+                <!--butao comprar-->
+                <button type="button" class="btn-comprar">Comprar agora</button>
+                <!--voltar-->
+                <i class="bi bi-x-circle" id="voltar"></i>
+
+            </div>
+        </div><!--fim nav container-->
+    </header>
+    <!--Loja-->
+    <section class="loja container">
+        <div class="titulo-loja">Disponíveis</div>
+        <!--contet-->
+        <div class="loja-contet">
+            <!--Box1-->
+            <div class="caixa-produto">
+                <img style="width: 300px;" class="imagem-produto" src="./imagens/onix.jpg" alt="">
+                <h2 class="titulo-produto">Onix 2024 Turbo</h2>
+                <p style="margin-bottom: 5px;"><b>Cor:</b>Branco</p>
+                <p> <del style="text-decoration: line-through; color: red;">R$102.999,00</del></p>
+                <span class="preco">R$99.490,00</span>
+                <i class="bi bi-bag-plus-fill add-card"></i>
+            </div>
+            <!--Box2-->
+            <div class="caixa-produto">
+                <img style="width: 300px; height: 222px;" class="imagem-produto" src="./imagens/argo.webp" alt="">
+                <h2 class="titulo-produto">Fiat Argo</h2>
+                <p style="margin-bottom: 5px;"><b>Cor:</b>Vermelho</p>
+                <p><del style="text-decoration: line-through; color: red;">R$51.999,00</del></p>
+                <span class="preco">R$46.800,00</span>
+                <i class="bi bi-bag-plus-fill add-card"></i>
+            </div>
+            <!--Box3-->
+            <div class="caixa-produto">
+                <img style="width: 300px;" class="imagem-produto" src="./imagens/gol.JPG" alt="">
+                <h2 class="titulo-produto">Gol G6 I-TREND 1.0</h2>
+                <p style="margin-bottom: 5px;"><b>Cor:</b>Prata</p>
+                <p><del style="text-decoration: line-through; color: red;">R$35.000,00</del></p>
+                <span class="preco">R$30.162,00</span>
+                <i class="bi bi-bag-plus-fill add-card"></i>
+            </div>
+        </div>
+    </section>
+    <footer style="text-align: center;">
+        <a href=""> <img style="width: 25px;" src="./imagens/whatsapp.png" alt=""></a>
+        <a href=""> <img style="width: 25px;" src="./imagens/facebook.png" alt=""></a>
+        <a href=""><img style="width: 25px;" src="./imagens/twitter.png" alt=""></a>
+        <p style="color: #fff;">Aconpanhe nossas redes sociais</p>
+        <p style="color: #fff;">jotacar@gmail.com</p>
+    </footer>
+    <!--link JS-->
+    <script src="/script.js"></script>
+</body>
+
+</html>
