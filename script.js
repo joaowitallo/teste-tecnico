@@ -66,6 +66,7 @@ function quantityChange(event) {
     updatetotal();
 }
 
+//add carrinho i
 function addCartClicked(event) {
     var button = event.target
     var shopProducts = button.parentElement
@@ -77,6 +78,7 @@ function addCartClicked(event) {
     updatetotal();
 }
 
+//update quantidade carrinho
 function atualizarQuantidadeCarrinho() {
     var cartItems = document.getElementsByClassName("contente-carrinho")[0];
     var totalItens = 0;
@@ -90,9 +92,10 @@ function atualizarQuantidadeCarrinho() {
     updatetotal()
 }
 
+    //add produto
 function addProductToCart(title, price, productImg) {
     var cartItems = document.getElementsByClassName("contente-carrinho")[0];
-    var cartItemsNames = cartItems.getElementsByClassName("titulo-produto-carrinho");
+    var cartItemsNames = cartItems.getElementsByClassName("titulo-produto-carrinho");   
     var itemExists = false;
     
     // Verifica se o item já está no carrinho

@@ -39,8 +39,8 @@ function hmacSHA256(message, key) {
 
 function authenticateUser(username, password) {
     const storedUser = {
-        username: 'testuser',
-        password: 'testpassword'
+        username: 'usuario',
+        password: 'login@2024'
     };
 
     if (username === storedUser.username && password === storedUser.password) {
