@@ -8,10 +8,10 @@ function generateJWT(username) {
 
     const payload = {
         sub: username,
-        exp: Math.floor(Date.now() / 1000) + (60 * 60) // Expira em 1 hora
+        exp: Math.floor(Date.now() / 1000) + (60 * 60) // 
     };
 
-    const secret = 'your-secret-key'; // Em uma aplicação real, use um segredo seguro e protegido
+    const secret = 'your-secret-key'; // 
 
     const encodeBase64 = (data) => {
         return btoa(JSON.stringify(data)).replace(/\+/g, '-').replace(/\//g, '_').replace(/=+$/, '');
