@@ -98,7 +98,7 @@ function addProductToCart(title, price, productImg) {
     var cartItemsNames = cartItems.getElementsByClassName("titulo-produto-carrinho");   
     var itemExists = false;
     
-    // Verifica se o item já está no carrinho
+    // Verificar se o item já está no carrinho
     for (var i = 0; i < cartItemsNames.length; i++) {
         if (cartItemsNames[i].textContent.trim() === title.trim()) {
             var quantityInput = cartItemsNames[i].closest("caixa-carrinho").querySelector("quantidade-i");

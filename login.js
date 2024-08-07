@@ -8,10 +8,10 @@ function generateJWT(username) {
 
     const payload = {
         sub: username,
-        exp: Math.floor(Date.now() / 1000) + (60 * 60) // Expira em 1 hora
+        exp: Math.floor(Date.now() / 1000) + (60 * 60) 
     };
 
-    const secret = 'your-secret-key'; // Em uma aplicação real, use um segredo seguro e protegido
+    const secret = 'your-secret-key'; 
 
     const encodeBase64 = (data) => {
         return btoa(JSON.stringify(data)).replace(/\+/g, '-').replace(/\//g, '_').replace(/=+$/, '');
@@ -56,13 +56,13 @@ document.getElementById('login-form').addEventListener('submit', function(event)
     event.preventDefault();
     
     const username = document.getElementById('username').value;
-    const password = document.getElementById('password').value;
+        const password = document.getElementById('password').value;
     
     const result = authenticateUser(username, password);
     
     if (result.success) {
         document.getElementById('message').textContent = 'Login bem sucedido!';
-        window.location.href = 'index.html'; // Verifique se o arquivo está no mesmo diretório
+        window.location.href = 'index.html';
     } else {
         document.getElementById('message').textContent = result.message;
     }
