@@ -106,5 +106,9 @@ O script adiciona um ouvinte de eventos ao formulário de login (`login-form`):
 
 
 
+
+
 <img src="/imagens-projeto/carrinho.png">
+
+
 
