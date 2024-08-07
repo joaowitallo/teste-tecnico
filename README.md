@@ -1,4 +1,3 @@
-
 # Projeto de Aplicação Web para Venda de Carros
 
 Este projeto é uma aplicação web para a venda de carros. Ele inclui funcionalidades para autenticação de usuários utilizando JWT (JSON Web Tokens) e utiliza dados mockados para simular a interação com a aplicação. O projeto é desenvolvido utilizando HTML, CSS e JavaScript.
@@ -89,4 +88,23 @@ O script adiciona um ouvinte de eventos ao formulário de login (`login-form`):
 - **Prevenção do Envio Padrão**: Impede o envio padrão do formulário para realizar a autenticação via JavaScript.
 - **Captura de Credenciais**: Obtém o nome de usuário e a senha do formulário.
 - **Autenticação**: Chama a função `authenticateUser` e exibe uma mensagem de sucesso ou erro com base no resultado.
+
+- # Imagens da página
+# Página Inicio/Login/Página compra/ Carrinho
+- <img src="/imagens-projeto/pagina-inicio.png">
+
+
+
+
+<img src="/imagens-projeto/login.png">
+
+
+
+
+<img src="/imagens-projeto/pagina-compra.png">
+
+
+
+
+<img src="/imagens-projeto/carrinho.png">
 
