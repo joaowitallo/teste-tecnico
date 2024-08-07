@@ -150,7 +150,7 @@ footer{
 }
 
 footer > a{
-    margin:10px;
+        margin:10px;
 
 }
 @media (max-width:400px){
