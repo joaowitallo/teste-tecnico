@@ -153,3 +153,34 @@ footer > a{
     margin:10px;
 
 }
+@media (max-width:400px){
+    .nav{
+        padding: 11px;
+
+    }
+
+    .logo{
+        font-size: 1.5rem;
+    }
+
+    .carrinho{
+        width: 320px;
+    }
+
+    .caixa-produto{
+        margin: auto;
+    }
+
+    .painel{
+        display: block  ;
+    }
+
+    .img-painel{
+       width: 100px;
+       margin-right: 10px;
+       text-align: center;
+    }
+
+}
+
+

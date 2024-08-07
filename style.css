@@ -230,3 +230,24 @@ footer > a{
     margin:10px;
 
 }
+
+@media (max-width:400px){
+    .nav{
+        padding: 11px;
+
+    }
+
+    .logo{
+        font-size: 1rem;
+    }
+
+    .carrinho{
+        width: 320px;
+    }
+
+    .caixa-produto{
+        margin: auto;
+    }
+
+
+}
