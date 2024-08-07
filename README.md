@@ -1,4 +1,3 @@
-<img src="/imagens-projeto/pagina-inicio.png">
 
 # Projeto de Aplicação Web para Venda de Carros
 
@@ -58,9 +57,10 @@ Este projeto é uma aplicação simples de carrinho de compras em JavaScript. El
 - `styles.css`: Arquivo CSS para estilizar o carrinho e os itens.
 - `script.js`: Arquivo JavaScript que contém toda a lógica do carrinho de compras.
 
-- # Login e Autenticação:
+- # Login e Autenticação: 
 O `login.js` é um script JavaScript que gerencia a autenticação de usuários em uma aplicação web utilizando JSON Web Tokens (JWT). Este script inclui a geração de tokens JWT e a autenticação de usuários com dados mockados. É uma parte do projeto que visa a implementação de funcionalidades de login e proteção de rotas.
-
+- **Login:usuario**
+- **Senha:login@2024**
 ## Funcionalidades
 
 - **Geração de JWT**: Cria um token JWT para autenticação de usuários, com um tempo de expiração definido.
