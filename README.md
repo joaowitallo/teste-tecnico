@@ -1,4 +1,3 @@
-<img src="/imagens-projeto/pagina-inicio.png">
 
 # Projeto de Aplicação Web para Venda de Carros
 
