@@ -62,7 +62,7 @@ document.getElementById('login-form').addEventListener('submit', function(event)
     
     if (result.success) {
         document.getElementById('message').textContent = 'Login bem sucedido!';
-        window.location.href = 'index.html'; // Verifique se o arquivo está no mesmo diretório
+        window.location.href = 'index.html';
     } else {
         document.getElementById('message').textContent = result.message;
     }
